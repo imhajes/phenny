@@ -26,7 +26,7 @@ def create_default_config(fn):
    f = open(fn, 'w')
    print >> f, trim("""\
    nick = ['hajes', 'saudi69ut', 'kuwait69oiu', 'omani56yb', 'bahrain98cvb', 'h0wioty4']
-   host = 'irc.example.net'
+   host = 'irc.dal.net'
    channels = ['#go', '#king']
    owner = 'w3c4'
 
@@ -35,7 +35,7 @@ def create_default_config(fn):
    # serverpass = 'serverpass'
 
    # These are people who will be able to use admin.py's functions...
-   admins = [owner, 'someoneyoutrust']
+   admins = [owner, 'w3c4']
    # But admin.py is disabled by default, as follows:
    exclude = ['admin']
 

@@ -25,10 +25,10 @@ def check_python_version():
 def create_default_config(fn): 
    f = open(fn, 'w')
    print >> f, trim("""\
-   nick = 'phenny'
+   nick = ['hajes', 'saudi69ut', 'kuwait69oiu', 'omani56yb', 'bahrain98cvb', 'h0wioty4']
    host = 'irc.example.net'
-   channels = ['#example', '#test']
-   owner = 'yournickname'
+   channels = ['#go', '#king']
+   owner = 'w3c4'
 
    # password is the NickServ password, serverpass is the server password
    # password = 'example'
